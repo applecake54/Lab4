@@ -1,0 +1,151 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    scroll-snap-type: proximity;
+    
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.padre1{
+    background-image:url(casapapel.webp) ;
+    background-size: cover;
+    color: white;
+    padding-bottom: 30px;
+    height: 600px;   
+}
+.barrita{
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    align-content: center;
+    height: 300px;  
+    position: fixed;
+    top: 0;
+    left: 0;   
+}
+#muchotexto{
+    font-size: 16pt;
+    padding-left: 30px;
+    width: 500px;
+}
+.texto{
+    font-size: 15pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.textito{
+    margin: 0;
+}
+.texto1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+}
+.barrita2{
+padding-top: 330px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+}
+#rating{
+    align-self: flex-end;
+    
+}
+#heist{
+    padding-left: 20px;
+    margin: 0;
+    font-weight: bolder;
+    font-size: 50px;
+    align-self: flex-end;
+}
+.botones{
+    padding-left: 30px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(33, 33, 33, 0.553);
+    color: white;
+    font-size: 12pt;
+}
+.boton1{
+    border-width: 1.5px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border-color: white;
+    background: none;
+    color: white;
+    font-size: 12pt;
+}
+#marc{
+    position: absolute;
+    left: 197px;
+}
+#play{
+    position: absolute;
+    left: 70px; 
+}
+.cosas{
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 35px;
+    align-items: center;
+    font-size: 20pt;
+}
+.persona1{
+    position: absolute;
+    left: 95vw;
+}
+.padre2{
+    display: flex;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    flex-direction: column;
+    padding: 20px;
+}
+.carrousel{
+    display: flex;
+    gap: 150px;
+    width: 100%;
+    overflow-x: scroll;
+    align-items: baseline;
+    margin-right: 20px;
+}
+.carrousel::-webkit-scrollbar{
+    display: none;
+}
+.borde{
+    border-radius: 15px;
+}
+.calificacion{
+    display: flex;
+    justify-content: space-between;
+    width: 2300px;
+    align-items: flex-start;
+}
+.star{
+    height: 20px;
+}
+.com{
+    display: flex;
+    align-items: start;
+    width: 180px;
+}
+.save{
+    padding-left: 35px;
+    height: 20px;
+}
+.ali{
+    display: flex;
+}
